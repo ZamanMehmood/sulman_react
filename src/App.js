@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+ import HomePage from './homepage';
 
 function App() {
   return (
-   <div>
+  <div>
     <h1>I am learning React js!</h1>
-   </div>
+     <HomePage />
+    </div>
   );
 }
 
