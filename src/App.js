@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
  import HomePage from './homepage';
-
+import AboutPage from './aboutpage';
+import NavBar from './navbar';
+import DashBroadPage from './dashbroadpage';
 function App() {
   return (
   <div>
-    <h1>I am learning React js!</h1>
-     <HomePage />
+     {/* <NavBar /> */}
+    {/* <HomePage />
+   <AboutPage/>  */}
+   <DashBroadPage/>
     </div>
   );
 }
