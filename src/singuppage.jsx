@@ -2,7 +2,13 @@ import React from "react";
 
 const SingUpPage = ()=>{
     return(
-        <h2>this is singuppage</h2>
+    <div className="container-fulid">
+        <div className="row">
+            <div className="col-6">
+                
+            </div>
+        </div>
+    </div>
     )
 }
 
