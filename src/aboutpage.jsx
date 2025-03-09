@@ -12,12 +12,13 @@ const AboutPage = () => {
 
     return (
         <div>
-            <ContentPage/>
+            <h1>About Component!</h1>
+            {/* <ContentPage/>
             <DashBroadPage/>
             <ForgotPasswordPage/>
             <LoginPage/>
             < SingUpPage/>
-            < ProfilePage/>
+            < ProfilePage/> */}
 
 
           </div>

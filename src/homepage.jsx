@@ -7,8 +7,7 @@ const HomePage = () => {
     return (
         <div>
           <h5>This is Homepage componen!</h5>
-          <h2>jlakdjfl</h2>
-          <p>hahahah😂😂😂</p>
+         
           </div>
     )
 }
