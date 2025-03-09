@@ -1,7 +1,10 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import {  useNavigate } from "react-router-dom";
+
+
 
 const DashBoardPage = () => {
+    const navigate = useNavigate()
   return (
     <div className="container-fluid bg-light vh-100">
       <div className="row h-100">
@@ -36,7 +39,7 @@ const DashBoardPage = () => {
             </div>
             <hr />
             <div className="text-center">
-              <button className="btn btn-success">Create new account</button>
+              <button className="btn btn-success"  onClick={() =>navigate("/signUp")}>Create new account</button>
             </div>
           </div>
         </div>

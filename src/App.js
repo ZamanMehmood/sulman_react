@@ -5,7 +5,7 @@ import './App.css';
 import AboutPage from './aboutpage';
 import NavBar from './navbar';
 import DashBroadPage from './dashbroadpage';
-
+import SingUpPage from "./singuppage";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path="/navbar" element={<NavBar /> }/>
           <Route  path="/dashbroad" element={<DashBroadPage/>}/>
           <Route path= "/about" element={<AboutPage />} />
+          <Route path="/signup" element={<SingUpPage />}/>
       </Routes>
    </Router>
     </div>

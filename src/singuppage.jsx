@@ -3,11 +3,7 @@ import React from "react";
 const SingUpPage = ()=>{
     return(
     <div className="container-fulid">
-        <div className="row">
-            <div className="col-6">
-                
-            </div>
-        </div>
+        <h1>This is Signup Page!</h1>
     </div>
     )
 }
