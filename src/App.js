@@ -10,11 +10,12 @@ import SingUpPage from "./singuppage";
 function App() {
   return (
   <div>
+    
    <Router>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/" element={<DashBroadPage/>}/>
           <Route path="/navbar" element={<NavBar /> }/>
-          <Route  path="/dashbroad" element={<DashBroadPage/>}/>
+          {/* <Route  path="/dashbroad" element={<DashBroadPage/>}/> */}
           <Route path= "/about" element={<AboutPage />} />
           <Route path="/signup" element={<SingUpPage />}/>
       </Routes>
